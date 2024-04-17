@@ -1,7 +1,7 @@
-﻿Snapshot.LaiYangSnapshot
-========================
+﻿aodv.models
+===========
 
-.. automodule:: Snapshot.LaiYangSnapshot
+.. automodule:: aodv.models
 
    
    
@@ -17,10 +17,10 @@
 
    .. autosummary::
    
-   .. autoclass:: LaiYangComponentModel
+   .. autoclass:: AODVLayer
       :members:
       :undoc-members:
-   .. autoclass:: LaiYangState
+   .. autoclass:: MobileNode
       :members:
       :undoc-members:
    

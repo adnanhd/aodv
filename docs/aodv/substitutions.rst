@@ -1,2 +1,1 @@
-.. |DistAlgName| replace:: Distributed Algorithm Name 
-
+.. |AODV| replace:: On-Demand Distance Vector Routing Algorithm 

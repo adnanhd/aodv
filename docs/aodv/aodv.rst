@@ -1,7 +1,7 @@
 .. include:: substitutions.rst
 
 ====================================================
-|Ad hoc On-Demand Distance Vector Routing Algorithm|
+|AODV|
 ====================================================
 
 

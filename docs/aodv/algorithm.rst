@@ -1,6 +1,6 @@
 .. include:: substitutions.rst
 
-|DistAlgName|
+|AODV|
 =========================================
 
 
@@ -10,14 +10,14 @@ Background and Related Work
 
 Present any background information survey the related work. Provide citations.
 
-Distributed Algorithm: |DistAlgName| 
+Distributed Algorithm: |AODV| 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An example distributed algorithm for broadcasting on an undirected graph is presented in  :ref:`Algorithm <BlindFloodingAlgorithmLabel>`.
+Ad hoc On-Demand Distance Vector Routing is a distributed algorithm for broadcasting on an undirected graph is presented in  :ref:`Algorithm <BlindFloodingAlgorithmLabel>`.
 
 .. _BlindFloodingAlgorithmLabel:
 
-.. code-block:: RST
+.. code-block:: python
     :linenos:
     :caption: Blind flooding algorithm.
     
@@ -27,13 +27,24 @@ An example distributed algorithm for broadcasting on an undirected graph is pres
     Events: Init, MessageFromTop, MessageFromBottom
     Needs:
 
-    OnInit: () do
-    
-    OnMessageFromBottom: ( m ) do
-        Trigger lbc.Broadcast ( m )
-    
-    OnMessageFromTop: ( m ) do
-        Trigger lbc.Broadcast ( m )
+    # Method for broadcast of RREQ messages
+    def SendRREQ(nodeX):
+	    Sqn_rq = 1
+        Hop_count_rq = 0  
+        Broadcast RREQ to Neighbors
+
+	# Method for handling RREQ messages
+	def ReceiveRREQ(RREQ, nodeX):
+	    if (nodeX == Destination):
+            UPDATE Route
+            SendRREP(nodeX, RREQ)
+        elif (Seq_rq > Seq_tb) or ((Seq_rq == Seq_tb) AND (Hop_Count_rq<Hop_Count_tb)):
+            UPDATE Route
+            Forward RREQ
+        else:
+            Forward RREQ
+            Seq_tb=Seq_rq
+            Hop_Count_tb=Hop_Count_rq +1
 
 
 Do not forget to explain the algorithm line by line in the text.
@@ -75,7 +86,7 @@ Present theoretic complexity results in terms of number of messages and computat
 
     .. code-block:: RST
         :linenos:
-        :caption: Chandy-Lamport Snapshot Algorithm [Fokking2013]_.
+        :caption: Ad-Hoc On-Demand Distance Vector Routing Algorithm [Fokking2013]_.
                 
         bool recordedp, markerp[c] for all incoming channels c of p; 
         mess-queue statep[c] for all incoming channels c of p;
