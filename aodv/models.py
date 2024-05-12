@@ -33,6 +33,42 @@ from .msgs import MessageTypes
 
 NULL_NODE_IDX = -1
 
+
+class AODVNode(GenericModel):
+    def __init__(self, componentname, componentid, *args, **kwargs):
+        super().__init__(componentname, componentid, *args, **kwargs)
+        self.aodvservice = AODVLayer("AODVLayer", componentid)
+        # CONNECTIONS AMONG SUBCOMPONENTS
+        self.connect_me_to_component(ConnectorTypes.DOWN, self.aodvservice)
+        self.aodvservice.connect_me_to_component(ConnectorTypes.UP, self)
+
+    def on_message_from_top(self, eventobj: Event):
+        self.send_down(Event(self, EventTypes.MFRT, eventobj.eventcontent))
+
+    def on_message_from_bottom(self, eventobj: Event):
+        self.send_up(Event(self, EventTypes.MFRB, eventobj.eventcontent))
+
+    def send_rreq(self, target_node_idx):
+        # broeadcast RREQ to all neighbors
+        # init an event
+        rreq_head = RREQ_Broadcast_Head(
+            MessageTypes.RREQ, self.componentinstancenumber, target_node_idx)
+
+        import pdb
+        pdb.set_trace()
+        rreq_data = RREQ_Broadcast_Data(src_seq=self.componentinstancenumber,  # degisecek
+                              src_addr=self.componentinstancenumber,
+                              hop_count=0, rreq_id='unique_id',
+                              dest_addr=target_node_idx,
+                              dest_seq=target_node_idx)  # degisecek
+        msg = GenericMessage(rreq_head, rreq_data)
+        self.send_down(Event(self, EventTypes.MFRT, (MessageTypes.RREQ, msg)))
+
+    def send_rrep(self, target_node_idx):
+        # broeadcast RREP to all neighbors
+        pass
+
+
 class AODVLayer(GenericModel):
     # routing_table: dict = field(default_factory=dict)
 
@@ -98,35 +134,4 @@ class AODVLayer(GenericModel):
 
     def on_message_from_bottom(self, eventobj: Event):
         # handle messages from lower layer
-        pass
-
-
-
-class AODVNode(GenericModel):
-    def __init__(self, componentname, componentid, *args, **kwargs):
-        super().__init__(componentname, componentid, *args, **kwargs)
-        self.aodvservice = AODVLayer("AODVLayer", componentid)
-
-        # CONNECTIONS AMONG SUBCOMPONENTS
-        self.connect_me_to_component(ConnectorTypes.DOWN, self.aodvservice)
-        self.aodvservice.connect_me_to_component(ConnectorTypes.UP, self)
-
-    def send_rreq(self, target_node_idx):
-        # broeadcast RREQ to all neighbors
-        # init an event
-        rreq_head = RREQ_Broadcast_Head(
-            MessageTypes.RREQ, self.componentinstancenumber, target_node_idx)
-
-        import pdb
-        pdb.set_trace()
-        rreq_data = RREQ_Broadcast_Data(src_seq=self.componentinstancenumber,  # degisecek
-                              src_addr=self.componentinstancenumber,
-                              hop_count=0, rreq_id='unique_id',
-                              dest_addr=target_node_idx,
-                              dest_seq=target_node_idx)  # degisecek
-        msg = GenericMessage(rreq_head, rreq_data)
-        self.send_down(Event(self, EventTypes.MFRT, (MessageTypes.RREQ, msg)))
-
-    def send_rrep(self, target_node_idx):
-        # broeadcast RREP to all neighbors
         pass
