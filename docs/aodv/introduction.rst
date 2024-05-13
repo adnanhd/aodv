@@ -3,6 +3,16 @@
 Introduction
 ============
 
+This section addresses the challenge of inefficient routing in dynamic mobile ad-hoc networks (MANETs).
+MANETs are characterized by frequent node movement and link changes, rendering traditional routing protocols 
+designed for static networks unsuitable. Here, we explore the limitations of these protocols and the need 
+for an alternative approach specifically tailored for the dynamic nature of MANETs. Here are some key terms that
+you will be encountering throughout the report:
+
+* **Mobile Ad-Hoc Network (MANET)**: A temporary network formed by mobile devices without a central infrastructure.
+* **Routing Protocol**: A set of rules that devices use to determine the path for data packets across a network.
+* **Proactive Routing**: A routing protocol where nodes maintain routing information for all destinations continuously.
+* **Reactive Routing**: A routing protocol where nodes only discover routes when communication with a specific destination is needed.
 
 The Problem
 -----------
@@ -10,16 +20,26 @@ The Problem
 Mobile ad-hoc networks (MANETs) are dynamic environments where devices connect and disconnect 
 frequently, and network connections constantly change. Traditional routing protocols designed 
 for static networks struggle in this scenario. Establishing and maintaining efficient routes 
-for communication between nodes in a MANET is a critical challenge.
+for communication between nodes in a MANET is a critical challenge. 
+
+The constant changes in network topology within a MANET pose a significant challenge to 
+traditional routing protocols. These protocols typically rely on a proactive approach,
+where each node maintains routing information for all possible destinations. In a static network,
+this strategy works well. However, in a MANET, the dynamic nature of the environment leads
+to several issues:
+
+* **Frequent Route Updates**: Due to node movement and link changes, routing tables require constant updates to maintain accurate information. This generates a significant amount of control overhead, wasting valuable bandwidth and battery power on mobile devices.
+* **Stale Routing Information**: Frequent updates might not keep pace with the rapid changes in network topology. This can lead to routing tables containing outdated information, resulting in dropped or delayed data packets when directed to unreachable nodes.
+* **Inefficient Resource Usage**: Proactive routing protocols constantly exchanging routing updates can drain the limited resources (battery power, bandwidth) of mobile devices in a MANET.
 
 Importance and Significance
 ---------------------------
 
 Efficient routing in MANETs unlocks a wide range of applications. These include:
 
-    Sensor networks for environmental monitoring and disaster relief.
-    Mobile communication in remote areas without fixed infrastructure.
-    Collaborative computing among mobile devices.
+* Sensor networks for environmental monitoring and disaster relief.
+* Mobile communication in remote areas without fixed infrastructure.
+* Collaborative computing among mobile devices.
 
 Without effective routing, communication in these scenarios becomes unreliable or impossible. 
 Delays and disruptions can severely limit the functionality and usefulness of MANETs.
@@ -43,15 +63,15 @@ The AODV Approach and Key Features
 ----------------------------------
 
 The Ad hoc On-Demand Distance Vector (AODV) routing algorithm addresses these challenges. It 
-utilizes a reactive approach, discovering routes only when a source node needs to communicate 
+utilizes a **reactive approach**, discovering routes only when a source node needs to communicate 
 with a specific destination. This conserves resources compared to proactive methods.
 
-AODV employs destination sequence numbers to ensure loop-free operation and route freshness. 
+AODV employs destination sequence numbers to ensure **loop-free operation** and route freshness. 
 Nodes choose routes with the highest sequence numbers, guaranteeing the latest and most reliable 
 paths. This approach offers quick route acquisition, efficient adaptation to network changes, and 
-avoids the "counting to infinity" problem seen in traditional distance vector protocols.
+avoids the "*counting to infinity*" problem seen in traditional distance vector protocols.
 
-However, it's important to acknowledge that AODV might incur a slight delay in route discovery 
+However, it's important to acknowledge that AODV might incur a slight delay in **route discovery** 
 for the first communication with a new destination. This is a trade-off for the efficiency gains 
 in a dynamic environment.
 
@@ -61,7 +81,7 @@ to network changes, conserving resources, and ensuring reliable communication.
 Contributions
 -------------
 
-Our primary contributions consist of the following:
+Authors' [Perkins2003]_ primary contributions consist of the following:
 
 - **On-demand route discovery**: Minimizes wasted overhead by only finding routes when communication is needed.
 - **Quick route acquisition**: Enables rapid establishment of new routes for efficient data transfer.

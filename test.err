@@ -1,0 +1,380 @@
+[34m===> 2024-05-13 07:21:48,506 - AHC - INFO - Generated NAME:AODVLayer COMPID: 0 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,507 - AHC - DEBUG - NAME:AODVLayer COMPID: 0 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,507 - AHC - INFO - Generated NAME:AODVLayer COMPID: 7 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,507 - AHC - DEBUG - NAME:AODVLayer COMPID: 7 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,507 - AHC - INFO - Generated NAME:AODVLayer COMPID: 3 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,507 - AHC - DEBUG - NAME:AODVLayer COMPID: 3 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,508 - AHC - INFO - Generated NAME:AODVLayer COMPID: 4 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,508 - AHC - DEBUG - NAME:AODVLayer COMPID: 4 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,508 - AHC - INFO - Generated NAME:AODVLayer COMPID: 1 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,508 - AHC - DEBUG - NAME:AODVLayer COMPID: 1 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,508 - AHC - INFO - Generated NAME:AODVLayer COMPID: 5 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,508 - AHC - DEBUG - NAME:AODVLayer COMPID: 5 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,508 - AHC - INFO - Generated NAME:AODVLayer COMPID: 9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,508 - AHC - DEBUG - NAME:AODVLayer COMPID: 9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,508 - AHC - INFO - Generated NAME:AODVLayer COMPID: 6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,508 - AHC - DEBUG - NAME:AODVLayer COMPID: 6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,508 - AHC - INFO - Generated NAME:AODVLayer COMPID: 2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,508 - AHC - DEBUG - NAME:AODVLayer COMPID: 2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,509 - AHC - INFO - Generated NAME:AODVLayer COMPID: 8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - NAME:AODVLayer COMPID: 8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,509 - AHC - INFO - Generated NAME:GenericChannel-0-7 COMPID: 0-7 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - NAME:GenericChannel-0-7 COMPID: 0-7 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,509 - AHC - INFO - Generated NAME:GenericChannel-0-7-INGRESS COMPID: 0-7 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - NAME:GenericChannel-0-7-INGRESS COMPID: 0-7 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,509 - AHC - INFO - Generated NAME:GenericChannel-0-7-INTERIM COMPID: 0-7 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - NAME:GenericChannel-0-7-INTERIM COMPID: 0-7 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,509 - AHC - INFO - Generated NAME:GenericChannel-0-7-EGRESS COMPID: 0-7 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - NAME:GenericChannel-0-7-EGRESS COMPID: 0-7 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting GenericChannel-0-7-0-7 ConnectorTypes.PEER to GenericChannel-0-7-INGRESS-0-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - GenericChannel-0-7-INGRESS-0-7 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting GenericChannel-0-7-INGRESS-0-7 ConnectorTypes.PEER to GenericChannel-0-7-INTERIM-0-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - GenericChannel-0-7-INTERIM-0-7 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting GenericChannel-0-7-INTERIM-0-7 ConnectorTypes.PEER to GenericChannel-0-7-EGRESS-0-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - GenericChannel-0-7-EGRESS-0-7 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting GenericChannel-0-7-EGRESS-0-7 ConnectorTypes.PEER to GenericChannel-0-7-0-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - GenericChannel-0-7-0-7 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting AODVLayer-0 ConnectorTypes.DOWN to GenericChannel-0-7-0-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - GenericChannel-0-7-0-7 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting GenericChannel-0-7-0-7 ConnectorTypes.UP to AODVLayer-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - AODVLayer-7 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting AODVLayer-7 ConnectorTypes.DOWN to GenericChannel-0-7-0-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - GenericChannel-0-7-0-7 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,509 - AHC - DEBUG - Connecting GenericChannel-0-7-0-7 ConnectorTypes.UP to AODVLayer-0 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - AODVLayer-0 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,510 - AHC - INFO - Generated NAME:GenericChannel-0-3 COMPID: 0-3 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - NAME:GenericChannel-0-3 COMPID: 0-3 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,510 - AHC - INFO - Generated NAME:GenericChannel-0-3-INGRESS COMPID: 0-3 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - NAME:GenericChannel-0-3-INGRESS COMPID: 0-3 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,510 - AHC - INFO - Generated NAME:GenericChannel-0-3-INTERIM COMPID: 0-3 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - NAME:GenericChannel-0-3-INTERIM COMPID: 0-3 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,510 - AHC - INFO - Generated NAME:GenericChannel-0-3-EGRESS COMPID: 0-3 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - NAME:GenericChannel-0-3-EGRESS COMPID: 0-3 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting GenericChannel-0-3-0-3 ConnectorTypes.PEER to GenericChannel-0-3-INGRESS-0-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - GenericChannel-0-3-INGRESS-0-3 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting GenericChannel-0-3-INGRESS-0-3 ConnectorTypes.PEER to GenericChannel-0-3-INTERIM-0-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - GenericChannel-0-3-INTERIM-0-3 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting GenericChannel-0-3-INTERIM-0-3 ConnectorTypes.PEER to GenericChannel-0-3-EGRESS-0-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - GenericChannel-0-3-EGRESS-0-3 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting GenericChannel-0-3-EGRESS-0-3 ConnectorTypes.PEER to GenericChannel-0-3-0-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - GenericChannel-0-3-0-3 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting AODVLayer-0 ConnectorTypes.DOWN to GenericChannel-0-3-0-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - GenericChannel-0-3-0-3 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting GenericChannel-0-3-0-3 ConnectorTypes.UP to AODVLayer-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - AODVLayer-3 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting AODVLayer-3 ConnectorTypes.DOWN to GenericChannel-0-3-0-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - GenericChannel-0-3-0-3 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - Connecting GenericChannel-0-3-0-3 ConnectorTypes.UP to AODVLayer-0 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,510 - AHC - DEBUG - AODVLayer-0 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,511 - AHC - INFO - Generated NAME:GenericChannel-0-6 COMPID: 0-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - NAME:GenericChannel-0-6 COMPID: 0-6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,511 - AHC - INFO - Generated NAME:GenericChannel-0-6-INGRESS COMPID: 0-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - NAME:GenericChannel-0-6-INGRESS COMPID: 0-6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,511 - AHC - INFO - Generated NAME:GenericChannel-0-6-INTERIM COMPID: 0-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - NAME:GenericChannel-0-6-INTERIM COMPID: 0-6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,511 - AHC - INFO - Generated NAME:GenericChannel-0-6-EGRESS COMPID: 0-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - NAME:GenericChannel-0-6-EGRESS COMPID: 0-6 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting GenericChannel-0-6-0-6 ConnectorTypes.PEER to GenericChannel-0-6-INGRESS-0-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - GenericChannel-0-6-INGRESS-0-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting GenericChannel-0-6-INGRESS-0-6 ConnectorTypes.PEER to GenericChannel-0-6-INTERIM-0-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - GenericChannel-0-6-INTERIM-0-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting GenericChannel-0-6-INTERIM-0-6 ConnectorTypes.PEER to GenericChannel-0-6-EGRESS-0-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - GenericChannel-0-6-EGRESS-0-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting GenericChannel-0-6-EGRESS-0-6 ConnectorTypes.PEER to GenericChannel-0-6-0-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - GenericChannel-0-6-0-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting AODVLayer-0 ConnectorTypes.DOWN to GenericChannel-0-6-0-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - GenericChannel-0-6-0-6 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting GenericChannel-0-6-0-6 ConnectorTypes.UP to AODVLayer-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - AODVLayer-6 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting AODVLayer-6 ConnectorTypes.DOWN to GenericChannel-0-6-0-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - GenericChannel-0-6-0-6 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - Connecting GenericChannel-0-6-0-6 ConnectorTypes.UP to AODVLayer-0 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - AODVLayer-0 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,511 - AHC - INFO - Generated NAME:GenericChannel-7-6 COMPID: 7-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,511 - AHC - DEBUG - NAME:GenericChannel-7-6 COMPID: 7-6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,512 - AHC - INFO - Generated NAME:GenericChannel-7-6-INGRESS COMPID: 7-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - NAME:GenericChannel-7-6-INGRESS COMPID: 7-6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,512 - AHC - INFO - Generated NAME:GenericChannel-7-6-INTERIM COMPID: 7-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - NAME:GenericChannel-7-6-INTERIM COMPID: 7-6 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,512 - AHC - INFO - Generated NAME:GenericChannel-7-6-EGRESS COMPID: 7-6 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - NAME:GenericChannel-7-6-EGRESS COMPID: 7-6 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting GenericChannel-7-6-7-6 ConnectorTypes.PEER to GenericChannel-7-6-INGRESS-7-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - GenericChannel-7-6-INGRESS-7-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting GenericChannel-7-6-INGRESS-7-6 ConnectorTypes.PEER to GenericChannel-7-6-INTERIM-7-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - GenericChannel-7-6-INTERIM-7-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting GenericChannel-7-6-INTERIM-7-6 ConnectorTypes.PEER to GenericChannel-7-6-EGRESS-7-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - GenericChannel-7-6-EGRESS-7-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting GenericChannel-7-6-EGRESS-7-6 ConnectorTypes.PEER to GenericChannel-7-6-7-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - GenericChannel-7-6-7-6 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting AODVLayer-7 ConnectorTypes.DOWN to GenericChannel-7-6-7-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - GenericChannel-7-6-7-6 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting GenericChannel-7-6-7-6 ConnectorTypes.UP to AODVLayer-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - AODVLayer-6 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting AODVLayer-6 ConnectorTypes.DOWN to GenericChannel-7-6-7-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - GenericChannel-7-6-7-6 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - Connecting GenericChannel-7-6-7-6 ConnectorTypes.UP to AODVLayer-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - AODVLayer-7 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,512 - AHC - INFO - Generated NAME:GenericChannel-7-8 COMPID: 7-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - NAME:GenericChannel-7-8 COMPID: 7-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,512 - AHC - INFO - Generated NAME:GenericChannel-7-8-INGRESS COMPID: 7-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,512 - AHC - DEBUG - NAME:GenericChannel-7-8-INGRESS COMPID: 7-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,513 - AHC - INFO - Generated NAME:GenericChannel-7-8-INTERIM COMPID: 7-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - NAME:GenericChannel-7-8-INTERIM COMPID: 7-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,513 - AHC - INFO - Generated NAME:GenericChannel-7-8-EGRESS COMPID: 7-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - NAME:GenericChannel-7-8-EGRESS COMPID: 7-8 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting GenericChannel-7-8-7-8 ConnectorTypes.PEER to GenericChannel-7-8-INGRESS-7-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - GenericChannel-7-8-INGRESS-7-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting GenericChannel-7-8-INGRESS-7-8 ConnectorTypes.PEER to GenericChannel-7-8-INTERIM-7-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - GenericChannel-7-8-INTERIM-7-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting GenericChannel-7-8-INTERIM-7-8 ConnectorTypes.PEER to GenericChannel-7-8-EGRESS-7-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - GenericChannel-7-8-EGRESS-7-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting GenericChannel-7-8-EGRESS-7-8 ConnectorTypes.PEER to GenericChannel-7-8-7-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - GenericChannel-7-8-7-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting AODVLayer-7 ConnectorTypes.DOWN to GenericChannel-7-8-7-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - GenericChannel-7-8-7-8 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting GenericChannel-7-8-7-8 ConnectorTypes.UP to AODVLayer-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - AODVLayer-8 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting AODVLayer-8 ConnectorTypes.DOWN to GenericChannel-7-8-7-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - GenericChannel-7-8-7-8 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - Connecting GenericChannel-7-8-7-8 ConnectorTypes.UP to AODVLayer-7 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - AODVLayer-7 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,513 - AHC - INFO - Generated NAME:GenericChannel-3-4 COMPID: 3-4 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - NAME:GenericChannel-3-4 COMPID: 3-4 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,513 - AHC - INFO - Generated NAME:GenericChannel-3-4-INGRESS COMPID: 3-4 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,513 - AHC - DEBUG - NAME:GenericChannel-3-4-INGRESS COMPID: 3-4 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,514 - AHC - INFO - Generated NAME:GenericChannel-3-4-INTERIM COMPID: 3-4 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - NAME:GenericChannel-3-4-INTERIM COMPID: 3-4 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,514 - AHC - INFO - Generated NAME:GenericChannel-3-4-EGRESS COMPID: 3-4 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - NAME:GenericChannel-3-4-EGRESS COMPID: 3-4 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting GenericChannel-3-4-3-4 ConnectorTypes.PEER to GenericChannel-3-4-INGRESS-3-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - GenericChannel-3-4-INGRESS-3-4 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting GenericChannel-3-4-INGRESS-3-4 ConnectorTypes.PEER to GenericChannel-3-4-INTERIM-3-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - GenericChannel-3-4-INTERIM-3-4 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting GenericChannel-3-4-INTERIM-3-4 ConnectorTypes.PEER to GenericChannel-3-4-EGRESS-3-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - GenericChannel-3-4-EGRESS-3-4 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting GenericChannel-3-4-EGRESS-3-4 ConnectorTypes.PEER to GenericChannel-3-4-3-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - GenericChannel-3-4-3-4 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting AODVLayer-3 ConnectorTypes.DOWN to GenericChannel-3-4-3-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - GenericChannel-3-4-3-4 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting GenericChannel-3-4-3-4 ConnectorTypes.UP to AODVLayer-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - AODVLayer-4 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting AODVLayer-4 ConnectorTypes.DOWN to GenericChannel-3-4-3-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - GenericChannel-3-4-3-4 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - Connecting GenericChannel-3-4-3-4 ConnectorTypes.UP to AODVLayer-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - AODVLayer-3 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,514 - AHC - INFO - Generated NAME:GenericChannel-3-1 COMPID: 3-1 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - NAME:GenericChannel-3-1 COMPID: 3-1 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,514 - AHC - INFO - Generated NAME:GenericChannel-3-1-INGRESS COMPID: 3-1 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - NAME:GenericChannel-3-1-INGRESS COMPID: 3-1 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,514 - AHC - INFO - Generated NAME:GenericChannel-3-1-INTERIM COMPID: 3-1 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,514 - AHC - DEBUG - NAME:GenericChannel-3-1-INTERIM COMPID: 3-1 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,515 - AHC - INFO - Generated NAME:GenericChannel-3-1-EGRESS COMPID: 3-1 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - NAME:GenericChannel-3-1-EGRESS COMPID: 3-1 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-3-1-3-1 ConnectorTypes.PEER to GenericChannel-3-1-INGRESS-3-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-3-1-INGRESS-3-1 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-3-1-INGRESS-3-1 ConnectorTypes.PEER to GenericChannel-3-1-INTERIM-3-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-3-1-INTERIM-3-1 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-3-1-INTERIM-3-1 ConnectorTypes.PEER to GenericChannel-3-1-EGRESS-3-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-3-1-EGRESS-3-1 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-3-1-EGRESS-3-1 ConnectorTypes.PEER to GenericChannel-3-1-3-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-3-1-3-1 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting AODVLayer-3 ConnectorTypes.DOWN to GenericChannel-3-1-3-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-3-1-3-1 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-3-1-3-1 ConnectorTypes.UP to AODVLayer-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - AODVLayer-1 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting AODVLayer-1 ConnectorTypes.DOWN to GenericChannel-3-1-3-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-3-1-3-1 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-3-1-3-1 ConnectorTypes.UP to AODVLayer-3 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - AODVLayer-3 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,515 - AHC - INFO - Generated NAME:GenericChannel-4-9 COMPID: 4-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - NAME:GenericChannel-4-9 COMPID: 4-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,515 - AHC - INFO - Generated NAME:GenericChannel-4-9-INGRESS COMPID: 4-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - NAME:GenericChannel-4-9-INGRESS COMPID: 4-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,515 - AHC - INFO - Generated NAME:GenericChannel-4-9-INTERIM COMPID: 4-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - NAME:GenericChannel-4-9-INTERIM COMPID: 4-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,515 - AHC - INFO - Generated NAME:GenericChannel-4-9-EGRESS COMPID: 4-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - NAME:GenericChannel-4-9-EGRESS COMPID: 4-9 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-4-9-4-9 ConnectorTypes.PEER to GenericChannel-4-9-INGRESS-4-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - GenericChannel-4-9-INGRESS-4-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,515 - AHC - DEBUG - Connecting GenericChannel-4-9-INGRESS-4-9 ConnectorTypes.PEER to GenericChannel-4-9-INTERIM-4-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-9-INTERIM-4-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-9-INTERIM-4-9 ConnectorTypes.PEER to GenericChannel-4-9-EGRESS-4-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-9-EGRESS-4-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-9-EGRESS-4-9 ConnectorTypes.PEER to GenericChannel-4-9-4-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-9-4-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting AODVLayer-4 ConnectorTypes.DOWN to GenericChannel-4-9-4-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-9-4-9 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-9-4-9 ConnectorTypes.UP to AODVLayer-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - AODVLayer-9 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting AODVLayer-9 ConnectorTypes.DOWN to GenericChannel-4-9-4-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-9-4-9 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-9-4-9 ConnectorTypes.UP to AODVLayer-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - AODVLayer-4 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,516 - AHC - INFO - Generated NAME:GenericChannel-4-8 COMPID: 4-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - NAME:GenericChannel-4-8 COMPID: 4-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,516 - AHC - INFO - Generated NAME:GenericChannel-4-8-INGRESS COMPID: 4-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - NAME:GenericChannel-4-8-INGRESS COMPID: 4-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,516 - AHC - INFO - Generated NAME:GenericChannel-4-8-INTERIM COMPID: 4-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - NAME:GenericChannel-4-8-INTERIM COMPID: 4-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,516 - AHC - INFO - Generated NAME:GenericChannel-4-8-EGRESS COMPID: 4-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - NAME:GenericChannel-4-8-EGRESS COMPID: 4-8 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-8-4-8 ConnectorTypes.PEER to GenericChannel-4-8-INGRESS-4-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-8-INGRESS-4-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-8-INGRESS-4-8 ConnectorTypes.PEER to GenericChannel-4-8-INTERIM-4-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-8-INTERIM-4-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-8-INTERIM-4-8 ConnectorTypes.PEER to GenericChannel-4-8-EGRESS-4-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-8-EGRESS-4-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - Connecting GenericChannel-4-8-EGRESS-4-8 ConnectorTypes.PEER to GenericChannel-4-8-4-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,516 - AHC - DEBUG - GenericChannel-4-8-4-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting AODVLayer-4 ConnectorTypes.DOWN to GenericChannel-4-8-4-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-4-8-4-8 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-4-8-4-8 ConnectorTypes.UP to AODVLayer-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - AODVLayer-8 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting AODVLayer-8 ConnectorTypes.DOWN to GenericChannel-4-8-4-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-4-8-4-8 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-4-8-4-8 ConnectorTypes.UP to AODVLayer-4 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - AODVLayer-4 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,517 - AHC - INFO - Generated NAME:GenericChannel-1-5 COMPID: 1-5 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - NAME:GenericChannel-1-5 COMPID: 1-5 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,517 - AHC - INFO - Generated NAME:GenericChannel-1-5-INGRESS COMPID: 1-5 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - NAME:GenericChannel-1-5-INGRESS COMPID: 1-5 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,517 - AHC - INFO - Generated NAME:GenericChannel-1-5-INTERIM COMPID: 1-5 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - NAME:GenericChannel-1-5-INTERIM COMPID: 1-5 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,517 - AHC - INFO - Generated NAME:GenericChannel-1-5-EGRESS COMPID: 1-5 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - NAME:GenericChannel-1-5-EGRESS COMPID: 1-5 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-1-5-1-5 ConnectorTypes.PEER to GenericChannel-1-5-INGRESS-1-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-1-5-INGRESS-1-5 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-1-5-INGRESS-1-5 ConnectorTypes.PEER to GenericChannel-1-5-INTERIM-1-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-1-5-INTERIM-1-5 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-1-5-INTERIM-1-5 ConnectorTypes.PEER to GenericChannel-1-5-EGRESS-1-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-1-5-EGRESS-1-5 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-1-5-EGRESS-1-5 ConnectorTypes.PEER to GenericChannel-1-5-1-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-1-5-1-5 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting AODVLayer-1 ConnectorTypes.DOWN to GenericChannel-1-5-1-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - GenericChannel-1-5-1-5 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting GenericChannel-1-5-1-5 ConnectorTypes.UP to AODVLayer-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - AODVLayer-5 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,517 - AHC - DEBUG - Connecting AODVLayer-5 ConnectorTypes.DOWN to GenericChannel-1-5-1-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-5-1-5 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-5-1-5 ConnectorTypes.UP to AODVLayer-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - AODVLayer-1 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,518 - AHC - INFO - Generated NAME:GenericChannel-1-9 COMPID: 1-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - NAME:GenericChannel-1-9 COMPID: 1-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,518 - AHC - INFO - Generated NAME:GenericChannel-1-9-INGRESS COMPID: 1-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - NAME:GenericChannel-1-9-INGRESS COMPID: 1-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,518 - AHC - INFO - Generated NAME:GenericChannel-1-9-INTERIM COMPID: 1-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - NAME:GenericChannel-1-9-INTERIM COMPID: 1-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,518 - AHC - INFO - Generated NAME:GenericChannel-1-9-EGRESS COMPID: 1-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - NAME:GenericChannel-1-9-EGRESS COMPID: 1-9 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-9-1-9 ConnectorTypes.PEER to GenericChannel-1-9-INGRESS-1-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-9-INGRESS-1-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-9-INGRESS-1-9 ConnectorTypes.PEER to GenericChannel-1-9-INTERIM-1-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-9-INTERIM-1-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-9-INTERIM-1-9 ConnectorTypes.PEER to GenericChannel-1-9-EGRESS-1-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-9-EGRESS-1-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-9-EGRESS-1-9 ConnectorTypes.PEER to GenericChannel-1-9-1-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-9-1-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting AODVLayer-1 ConnectorTypes.DOWN to GenericChannel-1-9-1-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-9-1-9 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-9-1-9 ConnectorTypes.UP to AODVLayer-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - AODVLayer-9 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting AODVLayer-9 ConnectorTypes.DOWN to GenericChannel-1-9-1-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - GenericChannel-1-9-1-9 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - Connecting GenericChannel-1-9-1-9 ConnectorTypes.UP to AODVLayer-1 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,518 - AHC - DEBUG - AODVLayer-1 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,519 - AHC - INFO - Generated NAME:GenericChannel-5-9 COMPID: 5-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - NAME:GenericChannel-5-9 COMPID: 5-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,519 - AHC - INFO - Generated NAME:GenericChannel-5-9-INGRESS COMPID: 5-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - NAME:GenericChannel-5-9-INGRESS COMPID: 5-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,519 - AHC - INFO - Generated NAME:GenericChannel-5-9-INTERIM COMPID: 5-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - NAME:GenericChannel-5-9-INTERIM COMPID: 5-9 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,519 - AHC - INFO - Generated NAME:GenericChannel-5-9-EGRESS COMPID: 5-9 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - NAME:GenericChannel-5-9-EGRESS COMPID: 5-9 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - Connecting GenericChannel-5-9-5-9 ConnectorTypes.PEER to GenericChannel-5-9-INGRESS-5-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - GenericChannel-5-9-INGRESS-5-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - Connecting GenericChannel-5-9-INGRESS-5-9 ConnectorTypes.PEER to GenericChannel-5-9-INTERIM-5-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - GenericChannel-5-9-INTERIM-5-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - Connecting GenericChannel-5-9-INTERIM-5-9 ConnectorTypes.PEER to GenericChannel-5-9-EGRESS-5-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - GenericChannel-5-9-EGRESS-5-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - Connecting GenericChannel-5-9-EGRESS-5-9 ConnectorTypes.PEER to GenericChannel-5-9-5-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - GenericChannel-5-9-5-9 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - Connecting AODVLayer-5 ConnectorTypes.DOWN to GenericChannel-5-9-5-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - GenericChannel-5-9-5-9 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - Connecting GenericChannel-5-9-5-9 ConnectorTypes.UP to AODVLayer-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,519 - AHC - DEBUG - AODVLayer-9 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - Connecting AODVLayer-9 ConnectorTypes.DOWN to GenericChannel-5-9-5-9 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - GenericChannel-5-9-5-9 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - Connecting GenericChannel-5-9-5-9 ConnectorTypes.UP to AODVLayer-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - AODVLayer-5 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,520 - AHC - INFO - Generated NAME:GenericChannel-5-2 COMPID: 5-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - NAME:GenericChannel-5-2 COMPID: 5-2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,520 - AHC - INFO - Generated NAME:GenericChannel-5-2-INGRESS COMPID: 5-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - NAME:GenericChannel-5-2-INGRESS COMPID: 5-2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,520 - AHC - INFO - Generated NAME:GenericChannel-5-2-INTERIM COMPID: 5-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - NAME:GenericChannel-5-2-INTERIM COMPID: 5-2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,520 - AHC - INFO - Generated NAME:GenericChannel-5-2-EGRESS COMPID: 5-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - NAME:GenericChannel-5-2-EGRESS COMPID: 5-2 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - Connecting GenericChannel-5-2-5-2 ConnectorTypes.PEER to GenericChannel-5-2-INGRESS-5-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - GenericChannel-5-2-INGRESS-5-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - Connecting GenericChannel-5-2-INGRESS-5-2 ConnectorTypes.PEER to GenericChannel-5-2-INTERIM-5-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - GenericChannel-5-2-INTERIM-5-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - Connecting GenericChannel-5-2-INTERIM-5-2 ConnectorTypes.PEER to GenericChannel-5-2-EGRESS-5-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - GenericChannel-5-2-EGRESS-5-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - Connecting GenericChannel-5-2-EGRESS-5-2 ConnectorTypes.PEER to GenericChannel-5-2-5-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,520 - AHC - DEBUG - GenericChannel-5-2-5-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting AODVLayer-5 ConnectorTypes.DOWN to GenericChannel-5-2-5-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-5-2-5-2 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-5-2-5-2 ConnectorTypes.UP to AODVLayer-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - AODVLayer-2 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting AODVLayer-2 ConnectorTypes.DOWN to GenericChannel-5-2-5-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-5-2-5-2 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-5-2-5-2 ConnectorTypes.UP to AODVLayer-5 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - AODVLayer-5 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,521 - AHC - INFO - Generated NAME:GenericChannel-6-2 COMPID: 6-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - NAME:GenericChannel-6-2 COMPID: 6-2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,521 - AHC - INFO - Generated NAME:GenericChannel-6-2-INGRESS COMPID: 6-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - NAME:GenericChannel-6-2-INGRESS COMPID: 6-2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,521 - AHC - INFO - Generated NAME:GenericChannel-6-2-INTERIM COMPID: 6-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - NAME:GenericChannel-6-2-INTERIM COMPID: 6-2 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,521 - AHC - INFO - Generated NAME:GenericChannel-6-2-EGRESS COMPID: 6-2 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - NAME:GenericChannel-6-2-EGRESS COMPID: 6-2 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-6-2-6-2 ConnectorTypes.PEER to GenericChannel-6-2-INGRESS-6-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-6-2-INGRESS-6-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-6-2-INGRESS-6-2 ConnectorTypes.PEER to GenericChannel-6-2-INTERIM-6-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-6-2-INTERIM-6-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-6-2-INTERIM-6-2 ConnectorTypes.PEER to GenericChannel-6-2-EGRESS-6-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-6-2-EGRESS-6-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-6-2-EGRESS-6-2 ConnectorTypes.PEER to GenericChannel-6-2-6-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-6-2-6-2 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting AODVLayer-6 ConnectorTypes.DOWN to GenericChannel-6-2-6-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-6-2-6-2 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting GenericChannel-6-2-6-2 ConnectorTypes.UP to AODVLayer-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - AODVLayer-2 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - Connecting AODVLayer-2 ConnectorTypes.DOWN to GenericChannel-6-2-6-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,521 - AHC - DEBUG - GenericChannel-6-2-6-2 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-6-2-6-2 ConnectorTypes.UP to AODVLayer-6 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - AODVLayer-6 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,522 - AHC - INFO - Generated NAME:GenericChannel-2-8 COMPID: 2-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - NAME:GenericChannel-2-8 COMPID: 2-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,522 - AHC - INFO - Generated NAME:GenericChannel-2-8-INGRESS COMPID: 2-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - NAME:GenericChannel-2-8-INGRESS COMPID: 2-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,522 - AHC - INFO - Generated NAME:GenericChannel-2-8-INTERIM COMPID: 2-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - NAME:GenericChannel-2-8-INTERIM COMPID: 2-8 created connector list (GenericModel.py:54, MainThread)[0m
+[34m===> 2024-05-13 07:21:48,522 - AHC - INFO - Generated NAME:GenericChannel-2-8-EGRESS COMPID: 2-8 (GenericModel.py:47, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - NAME:GenericChannel-2-8-EGRESS COMPID: 2-8 created connector list (GenericModel.py:54, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-2-8-2-8 ConnectorTypes.PEER to GenericChannel-2-8-INGRESS-2-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - GenericChannel-2-8-INGRESS-2-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-2-8-INGRESS-2-8 ConnectorTypes.PEER to GenericChannel-2-8-INTERIM-2-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - GenericChannel-2-8-INTERIM-2-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-2-8-INTERIM-2-8 ConnectorTypes.PEER to GenericChannel-2-8-EGRESS-2-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - GenericChannel-2-8-EGRESS-2-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-2-8-EGRESS-2-8 ConnectorTypes.PEER to GenericChannel-2-8-2-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - GenericChannel-2-8-2-8 is added to ConnectorTypes.PEER  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting AODVLayer-2 ConnectorTypes.DOWN to GenericChannel-2-8-2-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - GenericChannel-2-8-2-8 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-2-8-2-8 ConnectorTypes.UP to AODVLayer-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - AODVLayer-8 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting AODVLayer-8 ConnectorTypes.DOWN to GenericChannel-2-8-2-8 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - GenericChannel-2-8-2-8 is added to ConnectorTypes.DOWN  (Generics.py:137, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - Connecting GenericChannel-2-8-2-8 ConnectorTypes.UP to AODVLayer-2 (GenericModel.py:163, MainThread)[0m
+[0m===> 2024-05-13 07:21:48,522 - AHC - DEBUG - AODVLayer-2 is added to ConnectorTypes.UP  (Generics.py:137, MainThread)[0m

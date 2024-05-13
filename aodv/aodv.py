@@ -78,8 +78,9 @@ class AODVLayer(GenericModel):
         # self.update_routing_table(4,6,3,1)
 
     def update_topology(self):
-        Topology().nodecolors[self.componentinstancenumber] = 'r'
+        # Topology().nodecolors[self.componentinstancenumber] = 'r'
         # Topology().plot()
+        pass
 
     def on_rreq(self, eventobj: Event):
         # self.update_topology()
@@ -93,6 +94,7 @@ class AODVLayer(GenericModel):
         nexthop = MessageDestinationIdentifiers.LINKLAYERBROADCAST
 
         hopCount = self.get_next_hop_count(source, sequencenumber)
+        print(self.componentinstancenumber, source, "->", destination, "RREQ")
 
         # print(f"Send RREQ Message from {self.componentname}.{self.componentinstancenumber} for destination {destination} over {nexthop}")
         header = AODVBroadcastingMessageHeader(AODVLayerMessageType.RREQ, currentComponent, destination,
@@ -112,6 +114,7 @@ class AODVLayer(GenericModel):
         self.uniquebroadcastidentifier = self.uniquebroadcastidentifier + 1
         interfaceid = self.uniquebroadcastidentifier
         currentComponent = self.componentinstancenumber
+        print(self.componentinstancenumber, source, "->", destination, "RREP")
         nexthop = self.get_next_hop(source, sequencenumber)
         hopCount = self.get_next_hop_count(destination, sequencenumber)
 
@@ -234,7 +237,7 @@ class AODVLayer(GenericModel):
                             self.send_self(evt)
 
         elif broadcastingMessageHeader.messagetype == AODVLayerMessageType.RREP:
-
+            print("BOTTOM", self.componentinstancenumber, source, "->", destination, "RREP")
             with self.rrepLock:
                 if (applicationLayerMessage.uniqueid in self.rrepdb) and (self.rrepdb[applicationLayerMessage.uniqueid]["hopCount"] <= hopCount):
                     print(
@@ -359,7 +362,7 @@ class ApplicationLayerMessageTypes(Enum):
 #     pass
 
 
-class AODVChannel(GenericModel): # GenericChannel
+class AODVChannel(GenericModel):  # GenericChannel
 
     def on_deliver_to_component(self, eventobj: Event):
         message = eventobj.eventcontent
