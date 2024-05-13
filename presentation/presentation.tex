@@ -174,7 +174,20 @@ Background and this slide can be combined....
 
 \subsection{Background, Previous Works}
 \begin{frame}{Background}
-Research is not usually carried out in a vacuum. There will almost always be other relevant or related work, which you should describe. Present an orderly synopsis of these previously- obtained results. A table is often used for this purpose. Be sure to mention the author of each paper and its date of publication. \textbf{Compare and contrast them with each other and with your paper.}
+%Research is not usually carried out in a vacuum. There will almost always be other relevant or related work, which you should describe. Present an orderly synopsis of these previously- obtained results. A table is often used for this purpose. Be sure to mention the author of each paper and its date of publication. \textbf{Compare and contrast them with each other and with your paper.}
+\begin{itemize}
+    \item DSDV (Destination-Sequenced Distance Vector)  is a proactive routing protocol known for its
+    loop-free paths and efficient route maintenance. However, its proactive nature can lead to high control overhead in
+    dynamic MANETs. 
+    \item DYMO (Dynamic MANET On-Demand Routing), another on-demand routing protocol, shares similarities with AODV. 
+    However, it utilizes a different route discovery mechanism based on
+    source routing, where the entire route is included in the route request packet. This can increase packet size and overhead
+    compared to AODV's hop-by-hop approach. 
+    \item OLSR (Optimized Link State Routing) is a
+    hybrid protocol that combines proactive and reactive elements. It maintains local link state information and periodically
+    floods the network with control messages. While efficient for stable network topologies, OLSR might struggle with
+    highly dynamic MANETs.
+\end{itemize}
 \end{frame}
 
 

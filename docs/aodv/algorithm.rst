@@ -22,9 +22,9 @@ DYMO (Dynamic MANET On-Demand Routing), another on-demand routing protocol, shar
 OLSR (Optimized Link State Routing) is a hybrid protocol that combines proactive and reactive elements. It maintains local link state information and periodically floods the network with control messages. While efficient for stable network topologies, OLSR might struggle with highly dynamic MANETs. [OLSR_Clausen_2003]_
 
 
-.. [DSDV_Perkins_1994] Perkins, C. E., & Bhagwat, P. (1994, November). Highly dynamic destination-sequenced distance-vector routing (DSDV) for mobile computers. In SIGCOMM '94: Proceedings of the 1994 ACM SIGCOMM conference on Communications architectures, protocols and applications (pp. 234-244). https://dblp.org/rec/conf/nime/OdaF16
-.. [DYMO_DeCouto_2003] DeCouto, D., Perkins, C. E., Royer, E. M., & Marina, M. K. (2003, August). DYMO: A dynamic mobile ad hoc network routing protocol. In ACM SIGCOMM Computer Communication Review (Vol. 33, No. 4, pp. 153-161). https://dblp.org/faq/How+is+the+dblp+website+organized
-.. [OLSR_Clausen_2003] Clausen, T., & Jacquet, P. (2003, March). Optimized link state routing protocol (OLSR). In IETF (Ed.), RFC 3626 (pp. 1-24). https://dblp.org/pid/75/853
+.. [DSDV_Perkins_1994] G. He, “Destination-sequenced distance vector ( dsdv ) protocol,” 2002. [Online]. Available: https://api.semanticscholar.org/CorpusID:12383459
+.. [DYMO_DeCouto_2003] S. Ratliff, J. J. Dowdell, and C. E. Perkins, “Dynamic manet on-demand (aodvv2) routing,” 2013. [Online]. Available: https://api.semanticscholar.org/CorpusID:63975969
+.. [OLSR_Clausen_2003] T. H. Clausen and P. Jacquet, “Optimized link state routing protocol (olsr),” RFC, vol. 3626, pp. 1–75, 2003. [Online]. Available: https://api.semanticscholar.org/CorpusID:44711941
 
 
 Distributed Algorithm: |AODV| 
@@ -175,4 +175,4 @@ Complexity
     Message Complexity: In the worst case (destination is far away), a route discovery can generate O(n) RREQ packets, where n is the number of nodes. This happens when the RREQ floods through the entire network.
     Computational Complexity: The dominant factor is processing RREQ and RREP packets (table lookups and updates). This is generally considered O(1) per packet.
 
-.. [Perkins2003] Perkins, C. E., Royer, E. M., & Das, S. R. (2003, July). Ad hoc on-demand distance vector (AODV) routing. Request for Comments, 3561. https://datatracker.ietf.org/doc/html/rfc3561 
+.. [Perkins2003] C. Perkins and E. Royer, “Ad-hoc on-demand distance vector routing,” in Proceedings WMCSA’99. Second IEEE Workshop on Mobile Computing Systems and Applications, 1999, pp. 90–100.. https://datatracker.ietf.org/doc/html/rfc3561 
